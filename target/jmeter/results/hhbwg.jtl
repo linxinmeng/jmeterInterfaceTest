@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="21039" it="0" lt="0" ct="21038" ts="1587262246032" s="false" lb="选择产品" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
-<httpSample t="21012" it="0" lt="0" ct="21012" ts="1587262267140" s="false" lb="创建订单(用到随机函数生成身份证号）" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
-<httpSample t="21004" it="0" lt="0" ct="21004" ts="1587262288230" s="false" lb="获取订单详情" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
-<httpSample t="21004" it="0" lt="0" ct="21004" ts="1587262309245" s="false" lb="取消订单" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1">
+<httpSample t="21039" it="0" lt="0" ct="21038" ts="1587272862509" s="false" lb="选择产品" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
+<httpSample t="21009" it="0" lt="0" ct="21009" ts="1587272883625" s="false" lb="创建订单(用到随机函数生成身份证号）" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
+<httpSample t="21004" it="0" lt="0" ct="21004" ts="1587272904667" s="false" lb="获取订单详情" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
+<httpSample t="21005" it="0" lt="0" ct="21005" ts="1587272925685" s="false" lb="取消订单" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1">
   <assertionResult>
     <name>响应断言</name>
     <failure>true</failure>
@@ -11,9 +11,9 @@
     <failureMessage>Test failed: text expected to contain /已取消/</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="21001" it="0" lt="0" ct="21001" ts="1587262330257" s="false" lb="删除订单" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
-<httpSample t="21013" it="0" lt="0" ct="21013" ts="1587262351265" s="false" lb="门票预约分页显示" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
-<sample t="0" it="1" lt="0" ct="0" ts="1587262372283" s="true" lb="活动预约模块活动列表，使用正则表达式提取活动id" rc="200" rm="Number of samples in transaction : 0, number of failing samples : 0" tn="" dt="" by="0" sby="0" ng="0" na="0"/>
-<httpSample t="21009" it="0" lt="0" ct="21008" ts="1587262372286" s="false" lb="个人中心活动分页显示列表——使用正则提取订单号" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
+<httpSample t="21004" it="0" lt="0" ct="21004" ts="1587272946705" s="false" lb="删除订单" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
+<httpSample t="21004" it="0" lt="0" ct="21004" ts="1587272967713" s="false" lb="门票预约分页显示" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1587272988722" s="true" lb="活动预约模块活动列表，使用正则表达式提取活动id" rc="200" rm="Number of samples in transaction : 0, number of failing samples : 0" tn="" dt="" by="0" sby="0" ng="0" na="0"/>
+<httpSample t="21005" it="0" lt="0" ct="21005" ts="1587272988725" s="false" lb="个人中心活动分页显示列表——使用正则提取订单号" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="线程组 1-1" dt="text" by="2227" sby="0" ng="1" na="1"/>
 
 </testResults>
